@@ -1,0 +1,74 @@
+body {
+	background-color: #232323;
+	margin: 0;
+}
+
+.square {
+	width:30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	margin:1.6%;
+	float:left;
+	border-radius: 50%;
+	transition: background-color .5s;
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+}
+
+#container {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: lightgrey;
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	font-weight: lighter;
+	margin: 0;
+	padding-top: 3%;
+	padding-bottom: 3%;
+
+}
+
+h1 span {
+	display: block;
+	font-size: 150%;
+	padding: 1%;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: normal;
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background-color: #232323;
+}
+
+.selected {
+	color: white;
+	background-color: #232323;	
+}
+#message {
+	display: inline-block;
+	width: 20%;
+	font-family: 'Josefin Slab', serif;
+}
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+.transparent {
+	background-color: transparent;
+}
